@@ -12,7 +12,7 @@
   "author": "\"Radha Sen\"",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/index.js "
+    "dev": "nodemon src/index "
   },
   "devDependencies": {
     "nodemon": "^3.1.14"
