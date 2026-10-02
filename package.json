@@ -2,7 +2,7 @@
   "name": "backend-project1",
   "version": "1.0.0",
   "description": "chai or code at youtube",
-  "type": "commonjs",
+  "type": "module",
   "keywords": [
     "[\"javascript\"",
     "\"backend\"",
@@ -12,12 +12,15 @@
   "author": "\"Radha Sen\"",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/index "
+    "dev": "nodemon -r dotenv/config  --experimental-json-modules   src/index "
   },
   "devDependencies": {
     "nodemon": "^3.1.14"
   },
   "dependencies": {
+    "dotenv": "^18.0.5",
+    "express": "^5.2.1",
+    "mongoose": "^9.10.3",
     "prettier": "^3.9.9"
   }
 }
