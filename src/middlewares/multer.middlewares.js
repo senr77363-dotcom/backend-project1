@@ -1,6 +1,6 @@
 import multer from "multer";
-
-import crypto from "crypto";
+// import { upload } from   "../middlewares/multer.middlewares.js";
+ import crypto from "crypto";
 
 const storage = multer.diskStorage({
   destination: function (req, file, cb) {
